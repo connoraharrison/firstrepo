@@ -6,3 +6,7 @@ x <- 2
 y <- 4
 
 z <- x*y
+
+save(x,y,z, file = "out-data/practice1.Rdata")
+      
+     
